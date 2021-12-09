@@ -1,0 +1,40 @@
+.container {
+    padding: 30px 10px;
+}
+
+.mission,
+.vision,
+.valeur {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.imageContainer {
+    width: 140px;
+}
+
+.content {
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 300px;
+}
+
+.contentList {
+    margin-left: 15px;
+    text-align: left;
+    list-style: circle; 
+}
+
+.mission, .vision {
+    margin-top: 40px
+}
+
+.contentTitle {
+    font-size: 25px!important;
+    margin-bottom: 15px!important;
+}

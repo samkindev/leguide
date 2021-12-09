@@ -1,0 +1,46 @@
+.footer {
+    position: relative;
+    height: fit-content;
+    background-color: #1d1d1deb;
+    color: #353535
+}
+
+.content {
+    padding: 20px 10px 15px;
+    color: #b9b9b9;
+    margin: auto;
+    display: flex;
+    justify-content: center
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.listItem {
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    transition: .2s;
+    font-size: 13px!important;
+}
+
+.listItem a {
+    color: #b9b9b9;
+    text-decoration: none;
+}
+
+.listItem a:hover {
+    color: #fff;
+}
+
+.copyRight {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff7a;
+    background-color: #202020;
+}

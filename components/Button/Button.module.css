@@ -1,0 +1,9 @@
+.root {
+    padding: 7px 10px;
+    border-radius: 15px;
+    display: inline-flex;
+}
+
+.btn {
+    text-transform: initial!important;
+}
